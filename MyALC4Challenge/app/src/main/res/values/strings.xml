@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="welcome_alc">Welcome to ALC 4.0</string>
+    <string name="about_alc">About</string>
+    <string name="profile_alc">My Profile</string>
+    <string name="profile_name">Semiu Olanrewaju</string>
+    <string name="profile_pix_desc">Semiu Olanrewaju Profile Picture</string>
+    <string name="track_name">Track:</string>
+    <string name="track">Android</string>
+    <string name="country">Country:</string>
+    <string name="country_name">Nigeria</string>
+    <string name="email">Email:</string>
+    <string name="email_name">mightysemiu@yahoo.com</string>
+    <string name="phone_no_name">Phone Number:</string>
+    <string name="phone_no">2348029292906</string>
+    <string name="slack_username_name">Slack Username</string>
+    <string name="slack_username">/@mightysemiu</string>
+</resources>

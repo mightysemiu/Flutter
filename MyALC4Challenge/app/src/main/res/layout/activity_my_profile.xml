@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".my_profile"
+    android:orientation="vertical"
+    android:maxHeight="1000dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:background="#2BECEC"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:contentDescription="@string/profile_pix_desc"
+                android:src="@drawable/mightysemiu1" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/profile_name"
+                android:textColor="#FFF"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#E83F3F3F" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/track_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/track_name"
+                android:textColor="#696969"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/track"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:paddingStart="15dp"
+                android:paddingEnd="20dp"
+                android:text="@string/track"
+                android:textColor="#777676"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/country"
+                android:textColor="#696969"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:text="@string/country_name"
+                android:textColor="#777676"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/email"
+                android:textColor="#696969"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:paddingStart="15dp"
+                android:paddingEnd="20dp"
+                android:text="@string/email_name"
+                android:textColor="#777676"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/phone_no_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/phone_no_name"
+                android:textColor="#696969"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phone_no"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:paddingStart="15dp"
+                android:paddingEnd="20dp"
+                android:text="@string/phone_no"
+                android:textColor="#777676"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/slack_username_name"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/slack_username_name"
+                android:textColor="#696969"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/slack_username"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:paddingStart="15dp"
+                android:paddingEnd="20dp"
+                android:text="@string/slack_username"
+                android:textColor="#777676"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
